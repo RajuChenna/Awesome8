@@ -1,0 +1,222 @@
+:root {
+  --icon__clr: #afb9ca;  
+  --sub__profile: #919EB6;
+  --line:#f0f0f0;
+  --p__head: #1D232B;
+  --p__body: #313B49;
+}
+.sub__profile {
+  color: var(--sub__profile);
+}
+.p__head {
+  color: var(--p__head);
+}
+.p__body {
+  color: var(--p__body);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__header {
+  background-color: #fff;
+  height: 48px;
+  display: flex;
+  padding: 0px 24px;
+}
+.container__header .header__p1 {
+  width: 10%;
+  justify-content: start;
+}
+.container__header .header__p2 {
+  width: 80%;
+  letter-spacing: .5px;
+  font-weight: 700;
+  color: #1D232B;
+  justify-content: center;
+}
+.container__header .header__p3 {
+  width: 10%;
+  color: #AFB9CA;
+  justify-content: end;
+}
+.container__header .header__p1,
+.container__header .header__p2,
+.container__header .header__p3 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.container__content {
+  background-color: #fff;
+  overflow-y: scroll;
+}
+.container__content__body {
+  padding: 12px 24px;
+}
+.container__content__body .Profile__Details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container__content__body .Profile__Details__p1 {
+  display: flex;
+}
+.container__content__body .image1,
+.container__content__comment .image1,
+.container__content__comment .image2 {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+.container__content__body .image1,
+.container__content__comment .image1{
+  background-color: #ffce87;
+}
+.container__content__comment .image2 { 
+  background-color: #fc9299;
+}
+.fs__10 {
+  font-size: 10px;
+}
+.fs__12 {
+  font-size: 12px;
+}
+.fs__13 {
+  font-size: 13px;
+}
+.fs__14 {
+  font-size: 14px;
+}
+.fs__16 {
+  font-size: 16px;
+}
+.fw__4{
+  font-weight: 400;
+}
+.fw__5{
+  font-weight: 500;
+}
+.fw__6{
+  font-weight: 600;
+}
+.fw__7{
+  font-weight: 700;
+}
+.mr__5 {
+  margin-right: 5px;
+}
+.mr__12 {
+  margin-right: 12px;
+}
+.ml__5 {
+  margin-left: 5px;
+}
+.ls__5 {
+  letter-spacing: .5px;
+}
+.pl__50 {
+  padding-left: 50px;
+}
+.anticon-check-circle {
+  color: #01B99F;
+}
+.container__content__body .Profile__Details button{
+  color: #fff;
+  background-color: #01B99F;
+  border: unset;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 25px;
+  letter-spacing: .5px;
+  text-transform: capitalize;
+}
+.content__tag {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 12px;
+}
+.content__tag span {
+  background-color: #F7F8FA;
+  border: 1px solid #CED3DE;
+  color: #5A6B87;
+  padding: 5px 12px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.body__image  img{
+  width: 100%;
+  height: 450px;
+}
+.icon__div {
+  display: flex;
+  padding:24px;
+  align-items: center;
+}
+.icon__clr{
+  font-size: 22px;
+  color: var(--icon__clr);
+}
+.icon__div .number {
+  font-size: 12px;
+  color: var(--icon__clr);
+  margin: 0px 16px 0px 8px;
+}
+.icon__div .anticon-ellipsis {
+  margin-left: 16px;
+}
+.container__content__comment {
+  padding: 12px 24px;  
+  border-top: 1.5px solid var(--line);
+  border-bottom: 1.5px solid var(--line);
+}
+.container__content__comment__body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.container__content__comment .comment__logo {
+  display: flex;
+  align-items: center;
+}
+.container__content__comment .anticon-ellipsis {
+  color: var(--icon__clr);
+  font-size: 22px;
+}
+.cmnt__icon__clr{
+  font-size: 15px;
+  color: var(--icon__clr);
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.cmnt__icon__clr .number {
+  font-size: 10px;
+  color: var(--icon__clr);
+  margin: 0px 8px 0px 8px;
+}
+.comment__reply {
+  display: flex;
+  justify-content: space-between;
+}
+.container__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  color: var(--sub__profile);
+}
+.container__footer .container__footer__p1{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  display: none;
+}
